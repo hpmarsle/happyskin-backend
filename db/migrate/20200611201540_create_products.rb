@@ -3,8 +3,8 @@ class CreateProducts < ActiveRecord::Migration[6.0]
     create_table :products do |t|
       t.string :name
       t.string :image
-      t.string :ingredients
-      t.string :description
+      t.text :ingredients
+      t.text :description
       t.decimal :price, precision: 7, scale: 2
       t.string :size
       t.string :brand
