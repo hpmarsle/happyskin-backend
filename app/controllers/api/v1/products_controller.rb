@@ -2,7 +2,7 @@ class Api::V1::ProductsController < ApplicationController
     before_action :set_product, only: [:show, :update, :destroy]
 
     def index
-        @products = product.all
+        @products = Product.all
     
         render json: @products
       end
@@ -14,7 +14,7 @@ class Api::V1::ProductsController < ApplicationController
     
       # POST /products
       def create
-        @product = product.new(product_params)
+        @product = Product.new(product_params)
     
         if @product.save
           render json: @product, status: :created, location: @product
@@ -40,7 +40,7 @@ class Api::V1::ProductsController < ApplicationController
       private
         # Use callbacks to share common setup or constraints between actions.
         def set_product
-          @product = product.find(params[:id])
+          @product = Product.find(params[:id])
         end
     
         # Only allow a trusted parameter "white list" through.
