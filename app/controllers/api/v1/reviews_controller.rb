@@ -11,10 +11,11 @@ class Api::V1::ReviewsController < ApplicationController
   
     # POST /reviews
     def create
-      @review = Review.new(review_params)
+      @product = Product.find(params[:product_id])
+      @review = @product.reviews.new(review_params)
   
       if @review.save
-        render json: @review, status: :created, location: @review
+        render json: @product
       else
         render json: @review.errors, status: :unprocessable_entity
       end
