@@ -32,7 +32,11 @@ class Api::V1::ReviewsController < ApplicationController
   
     # DELETE /reviews/1
     def destroy
-      @review.destroy
+      # byebug
+      @product = Product.find(@review.product_id)
+      @review.destroy    
+      render json: @product
+
     end
   
     private
