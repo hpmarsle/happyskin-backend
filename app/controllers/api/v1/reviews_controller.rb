@@ -23,8 +23,10 @@ class Api::V1::ReviewsController < ApplicationController
   
     # PATCH/PUT /reviews/1
     def update
+      @product = Product.find(@review.product_id)
+
       if @review.update(review_params)
-        render json: @review
+        render json: @product
       else
         render json: @review.errors, status: :unprocessable_entity
       end
