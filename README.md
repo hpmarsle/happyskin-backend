@@ -1,24 +1,21 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# happyskin-backend
+Welcome to the happyskin web app. This app is a React based web application that allows users to view the happyskin company's products and their reviews, add a review to a product and edit or delete their review. 
 
-Things you may want to cover:
+## Future updates
+Project is ongoing. Updates will be made to have signup and login functionality and shopping cart feature. I hope to make this a fully functioning e-commerce app.
 
-* Ruby version
+## Installation
+-  clone this repo in addition to happyskin-frontend
+- run rails s on backend (localhost://3000)
+- run npm start (make sure server is localhost://3001)
 
-* System dependencies
+b
+## Built With
+- Javascript - React
+- Ruby/Rails for Backend API
+- Postgresql
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Acknowledgments
+Flatiron School
