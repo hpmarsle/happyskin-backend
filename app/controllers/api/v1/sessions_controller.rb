@@ -13,9 +13,14 @@ class Api::V1::SessionsController < ApplicationController
     end
   end
 
-  def destroy
-
+  def get_current_user 
+    if logged_in?
+      render json: current_user
+    else
+      render json: {
+        error: "Noone is logged in"
+      }
+    end
   end
 
-  private 
 end
