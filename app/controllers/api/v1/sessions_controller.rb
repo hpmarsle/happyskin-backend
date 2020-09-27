@@ -1,11 +1,11 @@
 class Api::V1::SessionsController < ApplicationController
   def create
     @user = User.find_by(username: params[:session][:username])
-    # if user is found with matching password
+
     if @user && @user.authenticate(params[:session][:password])
       session[:user_id] = @user.id
       render json: @user
-    # else run error message "password does not match username profile"
+
     else
       render json: {
         error: "password does not match the username profile"
@@ -21,6 +21,13 @@ class Api::V1::SessionsController < ApplicationController
         error: "Noone is logged in"
       }
     end
+  end
+
+  def destroy
+    session.clear
+    render json: {
+      notice: "successfully logged out"
+    }
   end
 
 end
