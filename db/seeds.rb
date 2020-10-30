@@ -100,20 +100,20 @@ products = Product.create(
 
 review = Review.create(
     [
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 1},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 1},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 2},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 3},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 3},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 4},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 5},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 6},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
-        {star_rating: "5 stars", comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 9}
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 1},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 1},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 2},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 3},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 3},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 4},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 5},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 6},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 7},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 8},
+        {star_rating: 5, comments: "This is the best product ever. Miracle cream in a jar. How did I live without this all my life. This made me into a 20 year old again and I am 80! Can't have enough.", product_id: 9}
     ]
 )
