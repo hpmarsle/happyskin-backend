@@ -13,7 +13,6 @@ class Api::V1::ReviewsController < ApplicationController
     def create
       @product = Product.find(params[:product_id])
       @review = @product.reviews.new(review_params)
-  
       if @review.save
         render json: @product
       else
